@@ -1,0 +1,29 @@
+
+body{
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+a{
+  text-decoration: none;
+  color:#333;
+}
+
+img{
+   width:960px;
+   height:218px;
+   text-align: center;
+}
+
+.class1{
+  margin:0px auto;
+  width:100%;
+  padding: 0 auto;
+}
+
+.class2{
+  float:left;
+  width:960px;
+  list-style:none;
+}
+

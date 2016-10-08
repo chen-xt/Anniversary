@@ -1,0 +1,380 @@
+
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+body{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+/* 标题块 */
+#header{
+	margin: 0 auto;
+  width:960px;
+  height:100px;
+  background-color:#99ccff;
+  text-align: center;
+}
+h1{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 35px;
+	font-weight:bolder;
+	font-style: italic;
+	text-decoration:blink;
+	padding-top: 15px;
+	color: white;
+	text-align: center;
+}
+table td{
+  text-align: left;
+}
+#header a{
+  color: white;
+  text-decoration: none;
+}
+#header a:hover{
+  font-size: 38px;
+}
+#header h4{
+  color: white;
+  text-align: right;
+  font-size: 12px;
+  font-family: Verdana, Geneva, sans-serif;
+  padding-bottom: 5px;
+  padding-right: 15px;
+}
+
+/* 图片块 */
+#img{
+  margin: 0 auto;
+  width:100%;
+  height: 215px;
+  text-align: center;
+}
+
+/* 导航菜单栏链接的样式 */
+#nav{
+   text-align: center;
+   width: 960px;
+   height: 35px;
+   margin: 0px auto;
+   padding: 0px auto;
+}
+nav {
+    margin: 0px auto; 
+    text-align: center;
+    width:960px;
+    height: 10px;
+    position: relative;
+    z-index:1;
+    font-family: Arial,"Times New Roman";
+    font-size: medium;
+} 
+ nav ul li:hover > ul {
+        display: block;
+    } /*实现下拉菜单不可少的*/
+nav ul {
+    background: #CCCCCC; /*导航条主菜单背景颜色*/
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+    padding: 0px 0px;
+    float: left;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%; /*自适应宽度*/
+}
+nav ul:after {
+         clear: both; 
+         display: block;
+    }
+nav ul li a {
+            display: block; 
+            padding: 20px 25px;
+            color: #330033; /*主菜单字体颜色*/
+            text-decoration: none;  
+            border-right: 1px solid #666666;   
+        }
+nav ul li {
+        float: left;
+
+    }
+nav ul li:hover a {
+                color:white;/*主菜单悬停时字体的颜色*/
+                font-size: 20px; /*主菜单悬停时字体放大*/
+            }
+ nav ul li:hover {
+            background: #888888;
+          
+            /*background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+            background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+            background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);*/
+        }
+     
+ nav ul ul {
+        background: #CCCCCf; /*导航条子菜单背景颜色*/
+        border-radius: 0px; 
+        padding: 0;
+        position: absolute; 
+        top: 100%;
+        width: 450px;   /*导航条宽度*/
+        display: none;
+    }
+ nav ul ul li {
+            float: none; 
+            border-top: 1px solid #666666;
+            position: relative;
+            width: 450px;
+        }
+ nav ul ul li a {
+                padding: 5px 5px;
+                color: #330033!important;  /*子菜单字体颜色*/
+                font-size: 17px!important; 
+            }   
+  nav ul ul li a:hover {
+                    color:#ffffff!important; /*子菜单悬停时字体的颜色*/ 
+                    font-size: 18px;                   
+                }
+
+
+/* 内容区 */
+#content{
+    width: 960px;
+    height:100%; 
+    background-color:#F5FFFA; 
+    border:1px solid #999; 
+    text-align: center;
+    margin: 0px auto;
+    border: 0; 
+    padding-top: 15px;
+    font-family: Arial, "Verdana" ,"Time New Roman", "STXinwei";
+}
+#content1{
+    width: 960px;
+    height:950px; 
+    background-color:#F5FFFA; 
+    border:1px solid #999; 
+    text-align: center;
+    margin: 0px auto;
+    border: 0; 
+    padding-top: 15px;
+    font-family: Arial, "Verdana", "STXinwei";
+}
+
+#content table .alt{
+  color:#000000;
+  background-color:#F5F5F5;
+}
+table th,table td {
+  padding: 6px 8px;
+  border: 1px #c0c0c0 solid;
+  line-height: 30px;
+}
+table{
+  margin:0px auto;
+  border:1;
+  text-align:center;
+  border-collapse:collapse;
+}
+h2{
+    padding-top: 15px;
+    font-family:Arial;
+    text-align:center;
+    font-style: italic;
+    line-height: 35px;
+}
+hr {
+    width: 100%;
+    border:none;
+    border-top:dashed 1px #000;
+    height:1px;
+    color:#fff;
+    margin: 20px 0 20px 0;
+}
+
+.p1{
+   float: left;
+   text-indent: 6em;
+   font-family:"Verdana";
+}
+.p2{
+   font-family:"STXinwei";
+   font-weight: 50px;
+   font-size: 18pt;
+}
+/*.p3{
+   float: left;
+   display: inline;
+   text-indent: 9em;
+   font-family:"Verdana";
+   line-height: 10px;
+}*/
+.p4{
+   font-family:Tahoma, Arial, Verdana, sans-serif;
+   line-height: 30px;
+   text-indent: 2em;
+   text-align: left;
+}
+.p5{
+   text-align: right;
+   font-style: italic;
+}
+.p6{
+   font-family: "Calibri";
+   font-size: 20px;
+   text-align: left;
+   text-indent: 7em;
+   line-height: 30px;
+}
+.p7{
+   font-family: "Calibri";
+   font-size: 20px;
+   text-align: left;
+   text-indent: 5em;
+   line-height: 35px;
+}
+.p8{
+   font-family: "Arial";
+   font-size: 17px;
+   font-weight: 10px;
+   color: #6666CC;
+   text-indent: 5em;
+}
+.p9{
+   font-family: "Calibri";
+   font-size: 18px;
+   text-align: left;
+   text-indent: 6.5em;
+   line-height: 20px;
+}
+.p10{
+   text-decoration: none;
+   color: #6666CC;
+   text-indent: 5em;
+}
+.p11{
+   font-family: "Arial";
+   font-weight: 50px;
+   text-align: left;
+   text-indent: 5em;
+   }
+.p12{
+   font-family:"Microsoft YaHei";
+   text-align:right;
+   padding-right: 40px;
+}
+.p13{
+    font-family:"Microsoft YaHei";
+    text-align: left;
+    text-indent: 3em;
+    font-weight: 70px;
+    line-height: 35px;
+    font-size: 20px;
+    color: #000031;
+}
+.p14{
+   font-family:"Calibri",Tahoma, Arial, Verdana, sans-serif;
+   line-height: 28px;
+   text-indent: 3em;
+   text-align: left;
+   font-weight: 20px;
+   font-size: 20px;
+}
+.p15{
+   text-decoration: none;
+}
+.p16{
+   font-family: "STXinwei";
+   font-weight: bold;
+   font-size: 18px;
+   text-align: left;
+   text-indent: 6em;
+}
+.p17{
+   color: #003366;
+   font-weight: normal;
+}
+.p18{
+    font-family:"Microsoft Yahei","Calibri",Tahoma, Arial, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 30px;
+}
+.p19{
+   font-family: "Arial";
+   text-align: left;
+   text-indent: 3.5em;
+   font-weight: 35px;
+   font-size: 20px;
+}
+.p20{
+  color: #6666CC;
+}
+.p21{
+   font-family:"Calibri",Tahoma, Arial, Verdana, sans-serif;
+   line-height: 28px;
+   text-indent: 3.5em;
+   text-align: left;
+   font-weight: 25px;
+   font-size: 20px;
+}
+.p22{
+   font-family: "STXinwei";
+   font-weight: 50px;
+   font-size: 17px;
+   text-align: left;
+   text-indent: 6.4em;
+}
+
+/* 底部区 */
+#footer{
+  width: 960px;
+  padding: 10px 0px;
+  background:#99CCFF;
+  position: relative;
+  clear: both;
+  color: black;
+  height: auto;
+  text-align: center;
+  font-family: Arial,"Times New Roman";
+  margin: 0 auto;
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+/* 文件下载 */
+.css_btn_class {
+  font-size:16px;
+  font-family:Arial;
+  font-weight:normal;
+  -moz-border-radius:8px;
+  -webkit-border-radius:8px;
+  border-radius:8px;
+  border:1px solid #ffaa22;
+  text-decoration:none;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #ffec64), color-stop(100%, #ffab23) );
+  background:-moz-linear-gradient( center top, #ffec64 5%, #ffab23 100% );
+  background:-ms-linear-gradient( top, #ffec64 5%, #ffab23 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23');
+  background-color:#ffec64;
+  color:#333333;
+  display:inline-block;
+  text-shadow:1px 1px 0px #ffee66;
+  -webkit-box-shadow:inset 1px 1px 0px 0px #fff6af;
+  -moz-box-shadow:inset 1px 1px 0px 0px #fff6af;
+  box-shadow:inset 1px 1px 0px 0px #fff6af;
+  margin-left: 15px;
+  padding-top: 9px;
+  padding-right: 18px;
+  padding-bottom: 9px;
+  padding-left: 18px;
+}
+.css_btn_class:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #ffab23), color-stop(100%, #ffec64) );
+  background:-moz-linear-gradient( center top, #ffab23 5%, #ffec64 100% );
+  background:-ms-linear-gradient( top, #ffab23 5%, #ffec64 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64');
+  background-color:#ffab23;
+}
+.css_btn_class:active {
+  position:relative;
+  top:1px;
+}
